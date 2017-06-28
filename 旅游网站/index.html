@@ -1,0 +1,336 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	/* css reset css初始化代码 */
+body {margin:0; padding:0; font:12px/1.5 "微软雅黑",\5b8b\4f53,Arial,sans-serif; color: #3b3b3b;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+table,td,tr,th{font-size:12px;}
+ol,ul {list-style:none;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight:normal;}
+address,cite,code,em,th,i{font-weight:normal; font-style:normal;}
+.clearfix{*zoom:1;}
+.clearfix:after{display:block; overflow:hidden; clear:both; height:0; visibility:hidden; content:".";}
+a {color:#252525; text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {color:#ba2636;text-decoration:underline;}
+a:active {color:#ba2636;}
+
+.head{
+	height: 70px;
+	background-color: #313945;
+}
+.head-in{
+	height: 70px;
+	width: 900px;
+	margin: 0 auto;
+	border: 0;
+}
+.logo{
+	height: 70px;
+	width: 290px;
+	float: left;
+	border: 0;
+	background-color: pink;
+}
+.logo img{
+	line-height: 70px;
+	text-align: center;
+	background-color: pink;
+}
+.nav{
+	width: 590px;
+	height: 70px;
+	border: 0;
+	float: right;
+}
+.nav a{
+	display: block;
+	float: left;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	margin-right: 30px;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+.nav .shouye{
+	height: 70px;
+	background-color: skyblue;
+}
+.banner{
+	height: 360px;
+	background: url();
+	background-color: pink;
+}
+.guanggao{
+	height: 350px;
+	background-color: skyblue;
+}
+.guanggao-in{
+	height: 350px;
+	width: 900px;
+	margin: 0 auto;
+	border: 0;
+}
+.guanggao-top{
+	height: 145px;
+	width: 900px;
+}
+.guanggao-top h2{
+	height: 145px;
+	font: 600 28px "微软雅黑";
+	line-height: 145px;
+	text-align: center;
+}
+.guanggao-bottom{
+	height: 200px;
+	width: 900px;
+}
+.guanggao-bottom p{
+	height: 200px;
+	/*line-height: 145px;*/
+	text-align: center;
+	color: white;
+	font-size: 16px;
+}
+.guanggao-bottom .gengguo{
+	width: 200px;
+	height: 45px;
+	border: 0;
+	margin: 30px auto;
+	background-color: #197fb7;
+}
+.guanggao-bottom .gengguo span{
+	height: 45px;
+	font: 600 20px "微软雅黑";
+	line-height: 45px;
+	text-align: center;
+	margin-left: 65px;
+	color: white;
+
+}
+.dao{
+	height: 330px;
+}
+.dao-in{
+	height: 330px;
+	width: 900px;
+	margin: 0 auto;
+}
+.dao-one{
+	height: 330px;
+	width: 250px;
+	float: left;
+	border: 0;
+}
+.dao-two{
+	height: 330px;
+	width: 250px;
+	float: left;
+	border: 0;
+}.dao-three{
+	height: 330px;
+	width: 250px;
+	float: left;
+	border: 0;
+}
+.dao-one-top{
+	height: 100px;
+	width: 250px;
+	background-color: blue;
+}
+.dao-one-bottom{
+    height: 230px;
+    width: 250px;
+    border: 0;
+}
+.dao-one-bottom .tian{
+	height: 50px;
+	width: 250px;
+	font-size: 16px;
+	line-height: 50px;
+	text-align: center;
+}
+.dao-one-bottom .tang{
+	height: 70px;
+	width: 250px;
+	text-align: center;
+}
+.dao-one-bottom .more{
+	height: 25px;
+	width: 70px;
+	background-color: green;
+	margin: 30px auto;
+}
+.dao-one-bottom .more span{
+	line-height: 25px;
+	margin-left: 15px;
+	color: white;
+	font-style: 600;
+}
+.dao-one , .dao-two{
+	margin-right: 40px;
+}
+.tese{
+	height: 330px;
+}
+.tese-in{
+	height: 330px;
+	width: 900px;
+	margin: 0 auto;
+
+}
+.footer{
+	height: 250px;
+    background-color: skyblue;
+}
+.footer-one{
+	height: 250px;
+	width: 225px;
+	float: left;
+	margin-left: 100px;
+}
+.footer-one h2{
+	font: 600 28px "微软雅黑";
+	color: white;
+}
+.footer-one span{
+	display: block;
+	margin-top: 10px;
+	line-height: 20px;
+}
+.ft{
+	height: 45px;
+	background-color: #136896;
+}
+.ft p{
+	float: left;
+	line-height: 45px;
+	margin-left: 50px;
+}
+.ft img{
+	float: right;
+	margin-top: 15px;
+	margin-right: 30px;
+}
+
+
+</style>
+</head>
+<body>
+<div class="head">
+	<div class="head-in">
+		<div class="logo">
+			<img src="" alt="" />
+		</div>
+		<div class="nav">
+		<a href="#" class="shouye">首页</a>
+		<a href="#">关于我们</a>
+		<a href="#">服务</a>
+		<a href="#">计划</a>
+		<a href="#">联系我们</a>
+		</div>
+	</div>
+</div>
+<div class="banner"></div>
+<div class="guanggao">
+	<div class="guanggao-in">
+		<div class="guanggao-top">
+			<h2>最新活动</h2>
+		</div>
+		<div class="guanggao-bottom">
+			<span>写游记赢大奖，马尔代夫邀你免费五日游!马尔代夫全称：马尔代夫共和国（原名马尔代夫群岛，1969年4月改为现名）位于南亚，是印度洋上的一个岛国。由1200余个小珊瑚岛屿组成，其中202个岛屿有人居住。面积300平方公里，是亚洲最小的国家。
+东北与斯里兰卡相距675公里，北部与印度的米尼科伊岛相距约113公里，马尔代夫南部的赤道海峡和一度半海峡为海上交通要道。
+2014年12月4日，马累海水淡化厂失火导致部分设备损毁，全岛淡水供应中断，中国政府向马方提供了紧急现汇援助和饮用水。</span>
+        <div class="gengguo"><span>查看更多</span></div>
+
+		</div>
+	</div>
+</div>
+<div class="dao">
+	<div class="dao-in">
+		<div class="dao-one">
+			<div class="dao-one-top"></div>
+			<div class="dao-one-bottom">
+				<h4 class="tian">天堂岛</h4>
+				<span class="tang">天堂岛是马尔代夫非常著名的度假海岛，在马尔代夫岛屿分级中属于第六级。天堂岛坐落在北马累北环礁，距离马累国际... </span>
+				<div class="more"><span>MORE</span></div>
+			</div>
+		</div>
+		<div class="dao-two">
+			<div class="dao-one-top"></div>
+			<div class="dao-one-bottom">
+				<h4 class="tian">天堂岛</h4>
+				<span class="tang">天堂岛是马尔代夫非常著名的度假海岛，在马尔代夫岛屿分级中属于第六级。天堂岛坐落在北马累北环礁，距离马累国际... </span>
+				<div class="more"><span>MORE</span></div>
+			</div>
+		</div>
+		<div class="dao-three">
+			<div class="dao-one-top"></div>
+			<div class="dao-one-bottom">
+				<h4 class="tian">天堂岛</h4>
+				<span class="tang">天堂岛是马尔代夫非常著名的度假海岛，在马尔代夫岛屿分级中属于第六级。天堂岛坐落在北马累北环礁，距离马累国际... </span>
+				<div class="more"><span>MORE</span></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="tese">
+	<div class="tese-in">
+		<div class="dao-one">
+			<div class="dao-one-top"></div>
+			<div class="dao-one-bottom">
+				<h4 class="tian">最新计划</h4>
+				<span class="tang">天堂岛是马尔代夫非常著名的度假海岛，在马尔代夫岛屿分级中属于第六级。天堂岛坐落在北马累北环礁，距离马累国际... </span>
+				<!-- <div class="more"><span>MORE</span></div> -->
+			</div>
+		</div>
+			<div class="dao-two">
+			<div class="dao-one-top"></div>
+			<div class="dao-one-bottom">
+				<h4 class="tian">最新计划</h4>
+				<span class="tang">天堂岛是马尔代夫非常著名的度假海岛，在马尔代夫岛屿分级中属于第六级。天堂岛坐落在北马累北环礁，距离马累国际... </span>
+				<!-- <div class="more"><span>MORE</span></div> -->
+			</div>
+		</div>
+			<div class="dao-three">
+			<div class="dao-one-top"></div>
+			<div class="dao-one-bottom">
+				<h4 class="tian">最新计划</h4>
+				<span class="tang">天堂岛是马尔代夫非常著名的度假海岛，在马尔代夫岛屿分级中属于第六级。天堂岛坐落在北马累北环礁，距离马累国际... </span>
+				<!-- <div class="more"><span>MORE</span></div> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer">
+	<div class="footer-one">
+		<h2>关于我们</h2>
+		<span>马尔代夫，上帝将眼泪留在了这里却让它更加晶莹和柔情，就好像浮在波上浪漫的梦。马尔代夫的风情总离不开“水”。马尔代夫，上帝将眼泪留在了这里却让它更加晶莹和柔情，就好像浮在波上浪漫的梦。</span>
+	</div>
+	<div class="footer-one">
+		<h2>最新新闻</h2>
+		<span>马尔代夫，上帝将眼泪留在了这里却让它更加晶莹和柔情，就好像浮在波上浪漫的梦。马尔代夫的风情总离不开“水”。马尔代夫，上帝将眼泪留在了这里却让它更加晶莹和柔情，就好像浮在波上浪漫的梦。</span>
+	</div>
+	<div class="footer-one">
+		<h2>联系我们</h2>
+		<span>马尔代夫，上帝将眼泪留在了这里却让它更加晶莹和柔情，就好像浮在波上浪漫的梦。马尔代夫的风情总离不开“水”。马尔代夫，上帝将眼泪留在了这里却让它更加晶莹和柔情，就好像浮在波上浪漫的梦。</span>
+	</div>
+	<div class="footer-one">
+		<h2>Flickr Photostream</h2>
+		
+	</div>
+</div>
+<div class="ft">
+	<p>Copyright 2014 .Company name All rights resenver.</p>
+	<img src="ft.gif" alt="" />
+</div>
+	
+</body>
+</html>

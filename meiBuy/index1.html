@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>梅兰商城案例练习</title>
+</head>
+<style type="text/css">
+   /* css reset css初始化代码 */
+body {margin:0; padding:0; font:12px/1.5 "微软雅黑",\5b8b\4f53,Arial,sans-serif; color: #3b3b3b;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+table,td,tr,th{font-size:12px;}
+ol,ul {list-style:none;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight:normal;}
+address,cite,code,em,th,i{font-weight:normal; font-style:normal;}
+.clearfix{*zoom:1;}
+.clearfix:after{display:block; overflow:hidden; clear:both; height:0; visibility:hidden; content:".";}
+a {color:#252525; text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {color:#ba2636;text-decoration:underline;}
+a:active {color:#ba2636;}
+   }
+	.nav{
+		height: 20px;
+		border: 1px solid black;
+	}
+	.logo{
+		height: 100px;
+		width: 980px;
+		border: 1px solid black;
+		margin: 0 auto;
+	}
+	.logo-1{
+		height: 100px;
+		width: 490px;
+		border: 1px solid black;
+		display: inline;
+	}
+	.logo-2{
+		height: 100px;
+		width: 490px;
+		border: 1px solid black;
+		display: inline-block;
+		float: right;
+	}
+	.daohang{
+		height: 20px;
+		width: 980px;
+		border: 1px solid black;
+		margin: 0 auto;
+	}
+	.zhuti{
+		height: 150px;
+		width: 980px;
+		border: 1px solid black;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.zhuti-1{
+		width: 240px;
+		height: 150px;
+		border: 1px solid black;
+		display: inline-block;
+	}
+	.zhuti-2{
+		width: 480px;
+		height: 150px;
+		border: 1px solid black;
+		display: inline-block;
+	}
+	.zhuti-3{
+		width: 240px;
+		height: 150px;
+		border: 1px solid black;
+		display: inline-block;
+		float: right;
+	}
+	.zhuti-3-1{
+		height: 70px;
+		border: 1px solid black;
+
+	}
+	.zhuti-3-2{
+		height: 70px;
+		border: 1px solid black;
+		margin-top: 5px;
+
+	}
+	.fenge-1{
+		width: 980px;
+		height: 60px;
+		border: 1px solid black;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	.tupian{
+		width: 980px;
+		height: 200px;
+		border: 1px solid black;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	.tupian-1{
+		width: 720px;
+		height: 200px;
+		border:1px solid black;
+		display: inline-block;
+	}
+	.tupian-2{
+		width: 230px;
+		height: 200px;
+		border: 1px solid black;
+		display: inline-block;
+		float: right;
+	}
+	.tupian-1-1{
+		height: 100px;
+		width: 720px;
+		border: 1px solid black;
+	}
+	.tupian-1-2{
+		height: 100px;
+		width: 720px;
+		border: 1px solid black;
+	}
+	.fenge-2{
+		width: 980px;
+		height: 60px;
+		border: 1px solid black;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	.zhanshi{
+		width: 980px;
+		height: 200px;
+		border: 1px solid black;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	.zhanshi-1{
+		width: 720px;
+		height: 200px;
+		border:1px solid black;
+		display: inline-block;
+	}
+	.zhanshi-2{
+		width: 230px;
+		height: 200px;
+		border: 1px solid black;
+		display: inline-block;
+		float: right;
+	}
+	.zhanshi-2-1{
+		height: 95px;
+		border: 1px solid black;
+	}
+	.zhanshi-2-2{
+		height: 95px;
+		border: 1px solid black;
+		margin-top: 5px;
+	}
+	.fenge-3{
+		width: 980px;
+		height: 60px;
+		border: 1px solid black;
+		margin: 0 auto;
+		margin-bottom: 10px;
+
+	}
+	.zuihou{
+		width: 980px;
+		height: 200px;
+		border: 1px solid black;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	.zuihou-1{
+		width: 720px;
+		height: 200px;
+		border:1px solid black;
+		display: inline-block;
+	}
+	.zuihou-2{
+		width: 230px;
+		height: 200px;
+		border: 1px solid black;
+		display: inline-block;
+		float: right;
+	}
+	.zuihou-1-1{
+		height: 100px;
+		width: 720px;
+		border: 1px solid black;
+	}
+	.zuihou-1-2{
+		height: 100px;
+		width: 720px;
+		border: 1px solid black;
+	}
+	.lianjie{
+		width: 980px;
+		height: 80px;
+		border: 1px solid black;
+		margin: 0 auto;
+		margin-bottom: 10px;
+
+	}
+	.footer{
+		height: 60px;
+		border: 1px solid black;
+		margin: 0 auto;
+	
+	}
+</style>
+<body>
+<div class="head"></div>
+<div class="nav"></div>
+<div class="logo">
+	<div class="logo-1">logo</div>
+	<div class="logo-2">sousuo</div>
+</div>
+<div class="daohang">首页</div>
+<div class="zhuti">
+	<div class="zhuti-1">商机市场</div>
+	<div class="zhuti-2">bg</div>
+	<div class="zhuti-3">
+		<div class="zhuti-3-1">建材通大众版</div>
+		<div class="zhuti-3-2">png</div>
+	</div>
+</div>
+<div class="fenge-1">建筑材料</div>
+<div class="tupian">
+	<div class="tupian-1">
+		<div class="tupian-1-1">第一行图片</div>
+		<div class="tupian-1-2">第二行图片</div>
+	</div>
+	<div class="tupian-2">用表格做主题 td中加上a链接</div>
+
+</div>
+<div class="fenge-2">儿童安全座椅</div>
+<div class="zhanshi">
+	<div class="zhanshi-1"></div>
+	<div class="zhanshi-2">
+		<div class="zhanshi-2-1">要border</div>
+		<div class="zhanshi-2-2">不要border</div>
+	</div>
+</div>
+<div class="fenge-3">工艺艺术品</div>
+<div class="zuihou">
+	<div class="zuihou-1">
+		<div class="zuihou-1-1"></div>
+		<div class="zuihou-1-2"></div>
+	</div>
+	<div class="zuihou-2"></div>
+</div>
+<div class="lianjie">链接</div>
+<div class="footer">最后footer</div>
+	
+</body>
+</html>

@@ -1,0 +1,321 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>尚合手机网联系</title>
+</head>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	ur{
+		list-style: none;
+	}
+	.header{
+		height: 62;
+		border-bottom:1px solid #E1E1E1; 
+	}
+	.header-in{
+		width: 980px;
+		height: 62px;   /*或用清除浮动*/
+		margin: 0 auto;
+	}
+		/*.clearfix:after{
+		content: "";
+		display: block;
+		clear: both;
+		height: 0;                    
+		visibility: hidden;
+	}
+	.clearfix{
+		*zoom:1;
+	}*/           /**********清除浮动***************************/
+	.logo{
+		width: 179px;
+		height: 25px;
+		float: left;
+		margin-top: 20px;
+		background:url(images/logo.png) no-repeat;
+		
+
+	}
+	.search{
+		width: 199px;
+		height: 31px;
+	/*	border: 1px solid black;*/
+		float: right;
+		margin-top: 20px;
+		margin-right: 8px;
+		
+	}
+
+	.search input{
+		width: 158px;
+		height: 31px;
+		border: 0;
+		background: url(images/input.png) no-repeat;
+		outline: none;/* 取消蓝色边框!!!!!*/
+		color: #eee;
+		padding-left: 8px;
+		float: left;
+	}
+	.search button{
+		width: 33px;
+		height: 31px;
+		background: url(images/button.png) no-repeat;
+		border: 0;
+		outline: none;
+
+		float: left;
+
+	}
+	/*nav start*/
+	.nav{
+		height: 55px;
+		background: url(images/nav-bg.png) repeat-x;
+	}
+	.nav-in{
+        width: 980px;
+        height: 55px;
+        margin: 0 auto;  
+	}
+	.nav-in ur li{
+		width: 130px;
+		height: 55px;
+		text-align: center;/*文字水平居中*/
+		line-height: 55px;		
+		float: left;
+		background: url(images/nav-line.png) no-repeat right;
+	}
+
+	.nav-in a{
+		font: 700 14px "微软雅黑";
+		color: #00004b;
+		text-decoration: none;/*取消下划线*/
+
+	}
+	.nav-in a:hover{
+     color: green;
+	}
+	/*nav stop*/
+    .shitu{
+    	width: 980px;
+    	margin: 0 auto;
+    }
+
+/*.notice start*/
+	.notice{
+		height: 29px;
+/*		background-color: pink;*/
+		border-top: 1px solid black;/*#e3e3e3*/
+		border-bottom: 1px solid black;
+	}
+	.notice-in{
+		width: 980px;
+		height: 29px;
+		margin: 0 auto;
+		line-height: 29px;
+
+	}
+	.notice-in p{
+    float: left;
+	}
+	.notice-in span{
+		font: 700 14px "微软雅黑";
+	}
+	.notice-in p a{
+		text-decoration: none;
+		font-size: 12px;
+		color: black;
+/*		line-height: 29px;
+		margin: 0 auto;*/
+	}
+	.notice-in p a:hover{
+    color: green;
+    text-decoration: underline;
+	}
+	.notice-in img{
+	float: right;
+	margin-top: 5px;
+	}
+/*notice over*/
+/*main start*/
+    .main{
+    	width: 980px;
+    	height: 300px;
+    	border: 1px solid black;
+    	margin: 0 auto;
+    	margin-top: 10px;
+    }
+    .main img{
+    	margin: 0 auto;
+    	float: left;
+    	padding-top: 12px;
+
+    }
+    .main .fabu,.zhongxin,.zhichi{
+    	width: 304px;
+    	height: 224px;
+    	border: 1px solid pink;
+    	margin: 0 auto ;
+    	float: left;
+    	margin-right: 5px;
+    	padding-left: 14px;
+    	line-height: 38px;    	
+    	font: 14px/38px "微软雅黑";
+    	color: green;
+
+
+    }
+
+/*main over*/
+/*footer start*/
+.footer{
+	height: 306px;
+	background:#2d2d2d url(images/footer-bg.png)repeat-x;
+}
+.footer-t{
+	    height: 220px;
+        border-bottom: 1px dashed #b3b3b3;
+
+}
+.footer-content{
+	width: 960px;
+	height: 205px;
+	margin: 0 auto;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+.footer-content dl {
+	float: left;
+	width: 110px;
+
+
+}
+.footer-content dl dt{
+	color: white;
+	height: 35px;
+	font-weight: 700;
+	/*margin-bottom: 10px;  */
+
+}
+
+.footer-content dl dd {
+        height: 20px;
+      }
+.footer-content  a {
+        font-size: 12px;
+        color:  pink;
+        text-decoration: none;
+     }
+.footer-content a:hover {
+        text-decoration: underline;
+     } 
+
+
+
+/*this over*/
+
+
+
+
+</style>
+<body>
+<div class="header">
+	<div class="header-in clearfix">
+		<!-- 内部居中盒子 -->
+		<div class="logo"></div>
+		<div class="search clearfix">
+			<input type="text" value="请输入关键字..." />
+			<button></button>
+		</div>
+	</div>
+</div>
+<!-- nav start -->
+<div class="nav">
+	<div class="nav-in">
+		<ur>
+			<li><a href="#">首页</a></li>
+			<li><a href="#">只能手机</a></li>
+			<li><a href="#">平板电脑</a></li>
+			<li><a href="#">配件</a></li>
+			<li><a href="#">服务支持</a></li>
+			<li><a href="#">关于尚合</a></li>
+		</ur>
+	</div>
+</div>
+
+<!-- nav stop -->
+<div class="shitu">
+	 <img src="images/banner.png" alt="shitu" /> 
+</div>
+<!-- 最新公告模块开始	 -->
+<div class="notice">
+<div class="notice-in">
+<p><span>最新公告:</span><a href="#"> 尚合Aone智能手机入网已经获工信部门审批下发。尚合官方</a></p>
+<span><img src="images/share.png" alt="share" /></span></div>
+
+<!-- main start -->
+<div class="main">
+<div class="main-in">
+<div class="fabu"><img src="images/arrow.png" alt="" />新品发布</div>
+<div class="zhongxin"><img src="images/arrow.png" alt="" />新闻中心</div>
+<div class="zhichi"><img src="images/arrow.png" alt="" />技术支持</div>
+</div>
+	
+</div>
+<!-- main over -->
+<div class="footer">
+        <div class="footer-t">
+            <div class="footer-content">
+                <dl>
+                    <dt>尚合首页</dt>
+                    <dd><a href="#">返回首页</a></dd>
+                </dl>
+                <dl>
+                    <dt>智能手机</dt>
+                    <dd><a href="#">Aone-T</a></dd>
+                    <dd><a href="#">Aone</a></dd>
+                </dl>
+                <dl>
+                    <dt>平板电脑</dt>
+                    <dd><a href="#">尚PAD S200</a></dd>
+                    <dd><a href="#">尚PAD S100</a></dd>
+                    <dd><a href="#">尚PAD SH-Q7</a></dd>
+                    <dd><a href="#">尚PAD SH-Q5</a></dd>
+                </dl>
+                <dl>
+                    <dt>平板电脑</dt>
+                    <dd><a href="#">尚PAD S200</a></dd>
+                    <dd><a href="#">尚PAD S100</a></dd>
+                    <dd><a href="#">尚PAD SH-Q7</a></dd>
+                    <dd><a href="#">尚PAD SH-Q5</a></dd>
+                </dl>
+                <dl>
+                    <dt>平板电脑</dt>
+                    <dd><a href="#">尚PAD S200</a></dd>
+                    <dd><a href="#">尚PAD S100</a></dd>
+                    <dd><a href="#">尚PAD SH-Q7</a></dd>
+                    <dd><a href="#">尚PAD SH-Q5</a></dd>
+                </dl>
+                <dl>
+                    <dt>平板电脑</dt>
+                    <dd><a href="#">尚PAD S200</a></dd>
+                    <dd><a href="#">尚PAD S100</a></dd>
+                    <dd><a href="#">尚PAD SH-Q7</a></dd>
+                    <dd><a href="#">尚PAD SH-Q5</a></dd>
+                </dl>
+                <dl>
+                    <dt>平板电脑</dt>
+                    <dd><a href="#">尚PAD S200</a></dd>
+                    <dd><a href="#">尚PAD S100</a></dd>
+                    <dd><a href="#">尚PAD SH-Q7</a></dd>
+                    <dd><a href="#">尚PAD SH-Q5</a></dd>
+                </dl>
+            </div>
+        </div>
+        <div class="footer-other"></div>
+
+</body>
+</html>
